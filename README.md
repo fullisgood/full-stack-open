@@ -11,10 +11,10 @@ Learn React, Redux, Node.js, MongoDB, GraphQL, TypeScript, React Native, GitHub 
 
 ### [Part 1 - Introduction to React](https://fullstackopen.com/en/part1)
 
-- [ ] Introduction to React
-- [ ] JavaScript
-- [ ] Component State, event handlers
-- [ ] A more complex state, debugging React apps
+- [x] Introduction to React
+- [x] JavaScript
+- [x] Component State, event handlers
+- [x] A more complex state, debugging React apps
 
 ### [Part 2 - Communicating with server](https://fullstackopen.com/en/part2)
 
