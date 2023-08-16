@@ -1,0 +1,26 @@
+### hello world!
+GET http://localhost:3001/
+
+### all persons
+GET http://localhost:3001/api/persons
+
+### get person by id
+GET http://localhost:3001/api/persons/64db29efa8517ce0e1bbd789
+
+### get person 404
+GET http://localhost:3001/api/persons/100
+
+### delete person by id
+DELETE http://localhost:3001/api/persons/1
+
+### add person
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "abcd",
+    "number": "121-1212121212"
+}
+
+### persons info
+GET http://localhost:3001/info

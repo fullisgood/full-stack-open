@@ -26,10 +26,10 @@ Learn React, Redux, Node.js, MongoDB, GraphQL, TypeScript, React Native, GitHub 
 
 ### [Part 3 - Programming a server with NodeJS and Express](https://fullstackopen.com/en/part3)
 
-- [ ] Node.js and Express
-- [ ] Deploying app to internet
-- [ ] Saving data to MongoDB
-- [ ] Validation and ESLint
+- [x] Node.js and Express
+- [x] Deploying app to internet
+- [x] Saving data to MongoDB
+- [x] Validation and ESLint
 
 ### [Part 4 - Testing Express servers, user administration](https://fullstackopen.com/en/part4)
 
