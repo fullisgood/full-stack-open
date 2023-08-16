@@ -52,8 +52,8 @@ const App = () => {
           setMessage(`Modified ${person.name}'s number`)
         })
         .catch(error => {
-          setMessage(`error:${oldPerson.name} was already deleted from server`)
-          setPersons(persons.filter(p => p.id !== id))
+          setMessage(`error:${error.response.data.error}`)
+          console.log(error.response.data)
         })
       return
     }
@@ -67,6 +67,10 @@ const App = () => {
       .then(person => {
         setPersons(persons.concat(person))
         setMessage(`Added ${person.name} to phonebook`)
+      })
+      .catch(error => {
+        setMessage(`error:${error.response.data.error}`)
+        console.log(error.response.data)
       })
     setNewName('')
     setNewNumber('')
